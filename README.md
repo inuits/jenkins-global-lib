@@ -11,7 +11,7 @@ This is a global library you can use in your Jenkins.
 
 ## What is there?
 
-### Remove Git Actions form a build
+### Remove Git Actions from a build
 
 This is a workaround for [JENKINS-40622](https://issues.jenkins-ci.org/browse/JENKINS-40622).
 
