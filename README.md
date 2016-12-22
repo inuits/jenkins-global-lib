@@ -6,7 +6,7 @@ This is a global library you can use in your Jenkins.
 
 1. Install the [Pipeline Shared Groovy Libraries
    Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Shared+Groovy+Libraries+Plugin)
-1. Define this shared lib in you Jenkins:
+1. Define this shared lib in your Jenkins:
     ![Jenkins Config](jenkins-config.png)
 
 ## What is there?
@@ -15,7 +15,7 @@ This is a global library you can use in your Jenkins.
 
 This is a workaround for [JENKINS-40622](https://issues.jenkins-ci.org/browse/JENKINS-40622).
 
-When using multiple get repositories (with Pipeline) the build menu is useless.
+When using multiple git repositories (with Pipeline) the build menu is useless.
 To find the "Waiting for input" button, you need to scroll a lot.
 
 The following code will remove all the "git actions" in individual builds menu:
